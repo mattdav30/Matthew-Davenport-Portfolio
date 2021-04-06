@@ -8,6 +8,9 @@ module.exports = {
   siteMetadata: {
 
     siteTitleAlt: `Matthew Davenport - Portfolio`,
+    siteImage: `/headshot.jpeg`,
+    siteLanguage: `en`,
+    siteUrl: `https://matthewdavenport.com.au`,
   },
   plugins: [
     {
