@@ -1,9 +1,9 @@
 {
   "private": true,
   "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+  "description": "A one page portfolio which uses scrolling animations to display my work and experience",
   "version": "0.2.8",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Matthew Davenport",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {

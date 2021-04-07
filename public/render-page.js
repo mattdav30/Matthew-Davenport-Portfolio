@@ -5492,7 +5492,7 @@ var Footer = function Footer() {
     onClick: toggleColorMode,
     type: "button",
     "aria-label": "Toggle dark mode"
-  }, isDark ? "Light" : "Dark"), "Copyright \xA9 ", new Date().getFullYear(), ". All rights reserved.", Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", null), Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["jsx"])(theme_ui__WEBPACK_IMPORTED_MODULE_0__["Flex"], {
+  }, isDark ? "Light" : "Dark"), Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", null), Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["jsx"])(theme_ui__WEBPACK_IMPORTED_MODULE_0__["Flex"], {
     sx: {
       justifyContent: "center",
       alignItems: "center",
@@ -5503,25 +5503,7 @@ var Footer = function Footer() {
         color: "text"
       }
     }
-  }, Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["jsx"])("img", {
-    width: "30",
-    height: "30",
-    src: "https://img.lekoarts.de/gatsby/logo_w30.png",
-    alt: "LekoArts Logo"
-  }), " ", Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["jsx"])(theme_ui__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    "aria-label": "Link to the theme's GitHub repository",
-    sx: {
-      ml: 2
-    },
-    href: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara"
-  }, "Theme"), Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-    sx: {
-      mx: 1
-    }
-  }, "by"), " ", Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["jsx"])(theme_ui__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    "aria-label": "Link to the theme author's website",
-    href: "https://www.lekoarts.de/en"
-  }, "LekoArts")));
+  },
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -47517,7 +47499,7 @@ var BaseStyles = function BaseStyles(props) {
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"site\":{\"siteMetadata\":{\"siteTitle\":\"Cara\",\"siteTitleAlt\":\"Matthew Davenport - Portfolio\",\"siteHeadline\":\"Cara - Gatsby Theme from @lekoarts\",\"siteUrl\":\"https://cara.lekoarts.de\",\"siteDescription\":\"Playful and Colorful One-Page portfolio featuring Parallax effects and animations\",\"siteLanguage\":\"en\",\"siteImage\":\"/banner.jpg\",\"author\":\"@lekoarts_de\"}}}}");
+module.exports = JSON.parse("{\"data\":{\"site\":{\"siteMetadata\":{\"siteTitle\":\"Cara\",\"siteTitleAlt\":\"Matthew Davenport - Portfolio\",\"siteHeadline\":\"Portfolio\",\"siteUrl\":\"https://matthewdavenport.com.au\",\"siteDescription\":\"A one page portfolio which uses scrolling animations to display my work and experience\",\"siteLanguage\":\"en\",\"siteImage\":\"/headshot.jpeg\",\"author\":\"Matthew Davenport\"}}}}");
 
 /***/ }),
 
