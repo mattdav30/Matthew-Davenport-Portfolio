@@ -5452,64 +5452,6 @@ var Contact = function Contact(_ref) {
 
 /***/ }),
 
-/***/ "./node_modules/@lekoarts/gatsby-theme-cara/src/components/footer.tsx":
-/*!****************************************************************************!*\
-  !*** ./node_modules/@lekoarts/gatsby-theme-cara/src/components/footer.tsx ***!
-  \****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var theme_ui__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! theme-ui */ "./node_modules/theme-ui/dist/index.esm.js");
-/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
-/** @jsx jsx */
-
-
-
-var Footer = function Footer() {
-  var _useColorMode = Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["useColorMode"])(),
-      colorMode = _useColorMode[0],
-      setColorMode = _useColorMode[1];
-
-  var isDark = colorMode === "dark";
-
-  var toggleColorMode = function toggleColorMode(e) {
-    setColorMode(isDark ? "light" : "dark");
-  };
-
-  return Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["jsx"])(theme_ui__WEBPACK_IMPORTED_MODULE_0__["Box"], {
-    as: "footer",
-    variant: "footer"
-  }, Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
-    sx: {
-      variant: "buttons.toggle",
-      fontWeight: "semibold",
-      display: "block",
-      mx: "auto",
-      mb: 3
-    },
-    onClick: toggleColorMode,
-    type: "button",
-    "aria-label": "Toggle dark mode"
-  }, isDark ? "Light" : "Dark"), Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", null), Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["jsx"])(theme_ui__WEBPACK_IMPORTED_MODULE_0__["Flex"], {
-    sx: {
-      justifyContent: "center",
-      alignItems: "center",
-      mt: 3,
-      color: "text",
-      fontWeight: "semibold",
-      a: {
-        color: "text"
-      }
-    }
-  },
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Footer);
-
-/***/ }),
-
 /***/ "./node_modules/@lekoarts/gatsby-theme-cara/src/components/hero.tsx":
 /*!**************************************************************************!*\
   !*** ./node_modules/@lekoarts/gatsby-theme-cara/src/components/hero.tsx ***!

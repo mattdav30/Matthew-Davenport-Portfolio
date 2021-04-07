@@ -15,7 +15,6 @@ module.exports = {
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
-      // See the theme's README for all available options
       options: {},
     },
     {
@@ -33,7 +32,7 @@ module.exports = {
       options: {
         name: `Matthew Davenport`,
         short_name: `Matthew`,
-        description: `A one page portfolio which uses scrolling animations to display my work`,
+        description: `A one page portfolio which uses scrolling animations to display my work and experience`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
