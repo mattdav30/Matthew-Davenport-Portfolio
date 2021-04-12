@@ -42,6 +42,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'toomuchpower.png',
+    title: 'Website Example',
+    info:
+      'Campaign website created during an election.',
+    info2: '',
+    url: 'https://www.toomuchpower.com.au/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'code.png',
     title: 'Website Example',
     info:
